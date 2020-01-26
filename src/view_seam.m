@@ -13,3 +13,4 @@ if strcmp(seamDirection, 'HORIZONTAL')
 else
     plot(seam, 1:m, 'r.');
 end
+    
