@@ -6,8 +6,11 @@ This is a course project of [ECS174 Computer Vision](https://www.cs.ucdavis.edu/
 
 ## Results
 
-### Input and its energy plot
-<img align="middle" src="/img/1.jpg"/>
+### Left: Input, Right: Image Energy
+![prague](/img/1.jpg)
+
+### Left: Horizontal Cumulative Energy, Right: Vertical Cumulative Energy
+![cem](/img/2.jpg)
 
 ## Reference
 
