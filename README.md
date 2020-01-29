@@ -8,18 +8,18 @@ This is a course project of [ECS174 Computer Vision](https://www.cs.ucdavis.edu/
 
 ### Input
 
-On the left in the original image, and on the right is the energy of the image. The higher energy indicates the abrupt changing among the surrounding pixels, which is useful to detect the edges
 ![prague](/img/1.jpg)
+On the left in the original image, and on the right is the energy of the image. The higher energy indicates the abrupt changing among the surrounding pixels, which is useful to detect the edges
 
 ### Cumulative Energy Maps
 
-Cumulative energy maps convey the most ideal seam with the least energy. By choosing the least energy seam, it minimized the chance of seams going across many different edges in the image. The left one is the horizontal cummulative energy map, and the right one is the vertical one. Colder color indicates less energy.
 ![cem](/img/2.jpg)
+Cumulative energy maps convey the most ideal seam with the least energy. By choosing the least energy seam, it minimized the chance of seams going across many different edges in the image. The left one is the horizontal cummulative energy map, and the right one is the vertical one. Colder color indicates less energy.
 
 ### Seam Selection
 
-According the cumulative energy maps, the seams are selected. On the left is the best horizontal seam, and on the right is the best vertical seam.
 ![cem](/img/3.jpg)
+According the cumulative energy maps, the seams are selected. On the left is the best horizontal seam, and on the right is the best vertical seam.
 
 ### Seam Carving VS. Resizing
 
