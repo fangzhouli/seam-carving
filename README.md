@@ -6,8 +6,8 @@ This is a course project of [ECS174 Computer Vision](https://www.cs.ucdavis.edu/
 
 ## Results
 
-<!-- ![prague](/img/input/inputSeamCarvingPrague.jpg) -->
-<img align="middle" src="/img/input/inputSeamCarvingPrague.jpg"/>
+### Input and its energy plot
+<img align="middle" src="/img/1.jpg"/>
 
 ## Reference
 
