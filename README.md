@@ -6,7 +6,7 @@ This is a course project of [ECS174 Computer Vision](https://www.cs.ucdavis.edu/
 
 ## Results
 
-Incoming...
+![prague](/img/input/inputSeamCarvingPrague.jpg)
 
 ## Reference
 
