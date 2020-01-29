@@ -1,7 +1,10 @@
+% example script of seam carving
+% it decreases the height by pixels of 50
+
 clear;
 
-im1 = imread('inputSeamCarvingPrague.jpg');
-im2 = imread('inputSeamCarvingMall.jpg');
+im1 = imread('../img/input/inputSeamCarvingPrague.jpg');
+im2 = imread('../img/input/inputSeamCarvingMall.jpg');
 energyImg1 = energy_img(im1);
 energyImg2 = energy_img(im2);
 for i = 1:50

@@ -1,3 +1,8 @@
+% input
+%   im              : loaded image
+%   seam            : indices of seam on the im
+%   seamDirection   : direction of the seam
+
 function view_seam(im, seam, seamDirection)
 
 if sum(ismember(['HORIZONTAL', 'VERTICAL'], seamDirection)) == 0

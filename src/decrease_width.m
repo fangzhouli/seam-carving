@@ -1,4 +1,4 @@
-function [reducedColorImg,reducedEnergyImg] = decrease_width(im,energyImg)
+function [reducedColorImg, reducedEnergyImg] = decrease_width(im, energyImg)
 
 [m, n, ~] = size(im);
 cumulativeEnergyMap = cumulative_min_energy_map(energyImg, 'VERTICAL');

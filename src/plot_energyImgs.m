@@ -1,6 +1,6 @@
 clear;
 
-im = imread('inputSeamCarvingPrague.jpg');
+im = imread('../img/input/inputSeamCarvingPrague.jpg');
 energyImg = energy_img(im);
 cumulativeEnergyMap_v = cumulative_min_energy_map(energyImg,'VERTICAL');
 cumulativeEnergyMap_h = cumulative_min_energy_map(energyImg,'HORIZONTAL');
